@@ -37,6 +37,11 @@ URL: https://api.botbr.app/novafatura
       "desconto": "porcentagem desconto",            /* (Não obrigatório) Formato inteiro 
       							Ex: 12,45% = 1245                           */
 							
+      "juros": "porcentagem juros"                   /* (Não obrigatório) Formato inteiro 
+      							Cobrado somente se o boleto for pago após 
+							o vencimento  
+      							Ex: 12,45% = 1245                           */
+							
       "multa": "porcentagem multa"                   /* (Não obrigatório) Formato inteiro 
       							Cobrado somente se o boleto for pago após 
 							o vencimento  

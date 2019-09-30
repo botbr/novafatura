@@ -1,12 +1,11 @@
 # Documentação para gerar uma nova fatura
 
-Boleto
-
 URL: https://api.botbr.app/novafatura
 
 
 		
 	Formato JSON POST
+	Boleto
 	{
 		"modo": "modorequisicao", /* Produção ou Teste */ (obrigatório)
 		"tokenid": "SEU TOKEN ID", (obrigatório)

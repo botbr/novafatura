@@ -3,10 +3,10 @@
 Boleto
 
 URL: https://api.botbr.app/novafatura
-Enviar Dados em formato JSON POST
 
 
 		
+	Formato JSON POST
 	{
     		"modo" => "producao", /* Produção ou Teste */ (obrigatório)
 		"tokenid" => "SEU TOKEN ID", (obrigatório)
@@ -26,10 +26,12 @@ Enviar Dados em formato JSON POST
 			
 			"valorPorParcelaCobranca" => 1000, /* Valores em Centavos */ (obrigatório)
 			"parcelas" => 1, (parcela em formato inteiro) (obrigatório)
-
+			
+			/* Fatura Boleto */
 			"boleto" => array
 			(
 			    "vencimento" => "30/09/2019" /* Formato data: dd/mm/yyyy */ (obrigatório)
 			)
 		)
-}
+	}
+

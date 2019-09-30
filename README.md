@@ -5,7 +5,7 @@ URL: https://api.botbr.app/novafatura
 ### Boleto (Formato JSON POST)
 ```	
 {
-  "modo": "modorequisicao",     /* Produção ou Teste (obrigatório) */
+  "modo": "modorequisicao",     /* producao ou teste (obrigatório) */
   "tokenid": "SEU TOKEN ID",    /* Gerado na plataforma APP BotBR (obrigatório) */
   "authid": "SEU AUTH ID",      /* Gerado na plataforma APP BotBR (obrigatório) */
   "metodo": "metodopagamento",  /* boleto, credito ou debito (obrigatório) */ 

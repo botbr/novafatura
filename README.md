@@ -5,11 +5,12 @@ Boleto
 URL: https://api.botbr.app/novafatura
 Enviar Dados em formato JSON POST
 
-{
-    "modo" => "producao", /* Produção ou Teste */ (obrigatório)
+
+		
+	{
+    		"modo" => "producao", /* Produção ou Teste */ (obrigatório)
 		"tokenid" => "SEU TOKEN ID", (obrigatório)
 		"authid" => "SEU TOKEN ID", (obrigatório)
-		
 		"metodo" => "boleto", /* boleto, credito ou debito */ (obrigatório) 
 		
 		"pagador" => array

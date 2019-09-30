@@ -23,11 +23,11 @@ URL: https://api.botbr.app/novafatura
 
 		"valorPorParcelaCobranca": VALOR DA PARCELA, /* Valores em Centavos */ (obrigatório)
 		"parcelas": 1, (parcela em formato inteiro) (obrigatório)
-	}
 	
-	"boleto":
-	{
-	    "vencimento" => "01/01/2019" /* Formato data: dd/mm/yyyy */ (obrigatório)
+		"boleto":
+		{
+		    "vencimento" => "01/01/2019" /* Formato data: dd/mm/yyyy */ (obrigatório)
+		}
 	}
 }
 ```

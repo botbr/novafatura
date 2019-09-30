@@ -30,7 +30,17 @@ URL: https://api.botbr.app/novafatura
     
     "boleto":
     {
-      "vencimento" => "01/01/2019"                 /* Formato data: dd/mm/yyyy (obrigatório)      */
+      "vencimento": "01/01/2019",                    /* Formato data: dd/mm/yyyy (obrigatório)      */
+      "fraseBoleto01": "Frase 01 do Boleto",         /* (Não obrigatório)   Max: 02 carac.          */
+      "fraseBoleto02": "Frase 02 do Boleto",         /* (Não obrigatório)   Max: 02 carac.          */
+      "fraseBoleto03": "Frase 03 do Boleto",         /* (Não obrigatório)   Max: 02 carac.          */
+      "desconto": "porcentagem desconto",            /* (Não obrigatório) Formato inteiro 
+      							Ex: 12,45% = 1245                           */
+							
+      "multa": "porcentagem multa"                   /* (Não obrigatório) Formato inteiro 
+      							Cobrado somente se o boleto for pago após 
+							o vencimento  
+      							Ex: 12,45% = 1245                           */
     }
   }
 	

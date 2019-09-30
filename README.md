@@ -24,7 +24,7 @@ URL: https://api.botbr.app/novafatura
 			"cidadePagador" => "CIDADE PAGADOR",         (obrigatório para boleto)
 			"estadoPagador" => "SIGLA ESTADO PAGADOR",   (obrigatório para boleto)
 
-			"valorPorParcelaCobranca" => 1000, /* Valores em Centavos */ (obrigatório)
+			"valorPorParcelaCobranca" => VALOR DA PARCELA, /* Valores em Centavos */ (obrigatório)
 			"parcelas" => 1, (parcela em formato inteiro) (obrigatório)
 
 			/* Fatura Boleto */

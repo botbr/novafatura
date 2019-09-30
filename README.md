@@ -8,10 +8,10 @@ URL: https://api.botbr.app/novafatura
 		
 	Formato JSON POST
 	{
-		"modo" => "producao", /* Produção ou Teste */ (obrigatório)
+		"modo" => "modorequisicao", /* Produção ou Teste */ (obrigatório)
 		"tokenid" => "SEU TOKEN ID", (obrigatório)
-		"authid" => "SEU TOKEN ID", (obrigatório)
-		"metodo" => "boleto", /* boleto, credito ou debito */ (obrigatório) 
+		"authid" => "SEU AUTH ID", (obrigatório)
+		"metodo" => "metodopagamento", /* boleto, credito ou debito */ (obrigatório) 
 
 		"pagador" => array
 		(
